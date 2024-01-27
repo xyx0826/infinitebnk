@@ -1,0 +1,9 @@
+[submodule "libInfinite"]
+	path = libInfinite
+	url = https://github.com/Coreforge/libInfinite.git
+[submodule "jsoncpp"]
+	path = jsoncpp
+	url = https://github.com/open-source-parsers/jsoncpp.git
+[submodule "vcpkg"]
+	path = vcpkg
+	url = https://github.com/microsoft/vcpkg
