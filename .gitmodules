@@ -1,6 +1,6 @@
 [submodule "libInfinite"]
 	path = libInfinite
-	url = https://github.com/Coreforge/libInfinite.git
+	url = https://github.com/xyx0826/libInfinite.git
 [submodule "jsoncpp"]
 	path = jsoncpp
 	url = https://github.com/open-source-parsers/jsoncpp.git
