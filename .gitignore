@@ -1,5 +1,6 @@
 3rd_party/**
 build
+soundbanks
 .cache
 
 CMakeLists.txt.user

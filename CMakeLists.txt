@@ -33,10 +33,15 @@ if(${INFINITE_COPY_OODLE_DLL})
 	configure_file(libInfinite/${INFINITE_OODLE_DLL} ${INFINITE_OODLE_DLL} COPYONLY)
 endif()
 
-set_property(TARGET infinitebnk PROPERTY CXX_STANDARD 20)
+set_property(TARGET infinitebnk PROPERTY CXX_STANDARD 23)
 
 target_sources(infinitebnk PRIVATE src/main.cpp)
 target_include_directories(infinitebnk PUBLIC src)
+
+# link pthread
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
+target_link_libraries(infinitebnk Threads::Threads)
 
 # link libInfinite
 target_link_libraries(infinitebnk Infinite)
