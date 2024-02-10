@@ -19,6 +19,8 @@ Usual command line tips apply:
 
 - `<path-to-deploy-folder>` is the path to the `deploy` folder within your Halo Infinite installation.
   - E.g. `"E:/Steam/steamapps/common/Halo Infinte/deploy"`
+  - **Important:** if no SoundBanks get extracted, try temporarily moving out subfolders `any`, `ds` from `deploy`.
+    Alternatively, specify path to the `pc` subfolder instead.
 - `[path-to-tagnames]` is the optional path to your downloaded `tagnames.txt`.
 - If a path contains whitespaces, wrap it in double quotes.
 
